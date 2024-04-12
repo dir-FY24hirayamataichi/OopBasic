@@ -5,14 +5,11 @@ public abstract class Employee implements Workable{
     protected final String name;
     protected final Department department;
     private final String position;
-    private final int employeeId;
-    
     // コンストラクタ
     public Employee(String name, Department department, String position, int employeeId) {
         this.name = name;
         this.department = department;
         this.position = position;
-        this.employeeId = employeeId;
     }
     
     // 報告メソッド
